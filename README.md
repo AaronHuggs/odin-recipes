@@ -20,6 +20,8 @@
 
 * CSS
 
+* Responsive Design
+
 * Source Control
 
 * Markdown
