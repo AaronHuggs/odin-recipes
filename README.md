@@ -18,6 +18,8 @@
 
 * HTML
 
+* CSS
+
 * Source Control
 
 * Markdown

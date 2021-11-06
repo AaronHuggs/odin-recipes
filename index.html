@@ -3,53 +3,61 @@
     <head>
         <title>Odin Recipes</title>
         <meta charset="UTF-8">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='./styles/style.css'>
+        <style>
+            ul {
+                list-style-type: none;
+            }
+            h3 {
+                padding-top: 20px;
+            }
+        </style>
     </head>
     <body>
-        <h1>Odin Recipes</h1>
+        <h1 id='top'>Odin Recipes</h1>
 
         <h2>This website links together several recipe pages that I enjoy</h2>
         <h2>Current recipes include:</h2>
-        <ul>
-            <li>
-                <a href='./recipes/pumpkin-pie.html'><h3>Pumpkin Pie</h3></a>
-                <a href='./recipes/pumpkin-pie.html'>
-                    <img src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F09%2F22%2Fchef-johns-pumpkin-pie-photo-by-vanessa-greaves.jpg'
-                        alt='Pumpkin Pie'
-                        height='300px'
-                        width='300px'
-                    >
+        <main>
+            <ul class='container'>
+                <li class='item'>
+                    <a href='./recipes/pumpkin-pie.html'><h3>Pumpkin Pie</h3></a>
+                    <a href='./recipes/pumpkin-pie.html'>
+                        <img src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F09%2F22%2Fchef-johns-pumpkin-pie-photo-by-vanessa-greaves.jpg'
+                            alt='Pumpkin Pie'
+                        >
+                    </a>
+                </li>
+                
+                <li class='item'>
+                    <a href='./recipes/chicken.html'><h3>Mushroom, Broccoli and Cheese Stuffed Chicken</h3></a>
+                    <a href='./recipes/chicken.html'>
+                        <img src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6118643.jpg'
+                            alt='Stuffed Chicken'
+                        >
+                    </a>
+                </li>
+                
+                <li class='item'>
+                    <a href='./recipes/pancakes.html'><h3>Oatmeal Pancakes</h3></a>
+                    <a href='./recipes/pancakes.html'>
+                        <img src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1011512.jpg'
+                            alt='Some Pancakes'
+                        >
+                    </a>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <a href='#top'>Back to Top</a>
+            <p>
+                Project inspired by the 
+                <a href='https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes'>
+                    Odin Recipes project.
                 </a>
-            </li>
-            <br>
-            <li>
-                <a href='./recipes/chicken.html'><h3>Mushroom, Broccoli and Cheese Stuffed Chicken</h3></a>
-                <a href='./recipes/chicken.html'>
-                    <img src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6118643.jpg'
-                        alt='Stuffed Chicken'
-                        height='300px'
-                        width='300px'
-                    >
-                </a>
-            </li>
-            <br>
-            <li>
-                <a href='./recipes/pancakes.html'><h3>Oatmeal Pancakes</h3></a>
-                <a href='./recipes/pancakes.html'>
-                    <img src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1011512.jpg'
-                        alt='Some Pancakes'
-                        height='300px'
-                        width='300px'
-                    >
-                </a>
-            </li>
-        </ul>
+            </p>
+        </footer>
         
-        <p>
-            Project inspired by the 
-            <a href='https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes'>
-                Odin Recipes project.
-            </a>
-        </p>
     </body>
 </html>
