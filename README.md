@@ -6,18 +6,18 @@
 
 #### Current recipes include
 
-##### Pumpkin Pie
+* Pumpkin Pie
 
-##### Oatmeal Pancakes
+* Oatmeal Pancakes
 
-##### Mushroom, Broccoli and Cheese Stuffed Chicken
+* Mushroom, Broccoli and Cheese Stuffed Chicken
 
 ---
 
 ## Skills Used
 
-### HTML
+* HTML
 
-### Source Control
+* Source Control
 
-### Markdown
+* Markdown
